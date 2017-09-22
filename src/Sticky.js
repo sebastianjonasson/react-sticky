@@ -100,7 +100,7 @@ export default class Sticky extends Component {
     )
 
     return (
-      <div>
+        <div className={this.props.className}>
         <div ref={ placeholder => this.placeholder = placeholder } />
         { element }
       </div>
